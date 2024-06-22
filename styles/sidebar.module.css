@@ -1,0 +1,41 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed; /* Asegura que el sidebar esté fijo en la pantalla */
+  top: 0;
+  left: 0;
+}
+
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebarIcon {
+  margin-right: 10px;
+}
+
+.sidebarText {
+  font-size: 16px;
+}
+
+.logoutButton {
+  margin-bottom: 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #c82333;
+}

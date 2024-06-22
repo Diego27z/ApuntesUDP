@@ -1,0 +1,80 @@
+.mainContent {
+  margin-left: 220px; /* Deja espacio para el sidebar */
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh; /* Asegura que el contenido ocupe al menos el 100% de la altura de la pantalla */
+  position: relative;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.uploadSection {
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fileUpload {
+  display: none;
+}
+
+.icon {
+  margin-top: 10px;
+}
+
+.formSection {
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formLabel {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logoutButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #c82333;
+}

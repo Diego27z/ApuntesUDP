@@ -1,0 +1,23 @@
+{
+    "name": "udp_en_linea",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "firebase-admin": "^10.0.2",
+        "fs": "^0.0.1-security",
+        "multer": "^1.4.4",
+        "next": "^14.2.4",
+        "next-auth": "^4.24.7",
+        "next-connect": "^0.12.2",
+        "pdf-lib": "^1.17.1",
+        "pdf-thumbnail": "^1.0.6",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "sharp": "^0.33.4",
+        "swr": "^2.2.5"
+    }
+}
